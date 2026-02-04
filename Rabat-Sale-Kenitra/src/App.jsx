@@ -1,7 +1,9 @@
+import Menu from "./Components/Menu";
+
 const App = () => {
   return (
     <>
-      <h1>Hello World</h1>
+      <Menu />
     </>
   );
 };
