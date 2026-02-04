@@ -1,0 +1,41 @@
+==================================
+==== correction partie pratique :
+==================================
+
+EXERCICE 1 
+==========
+
+1 => Avantage de Redux :
+        * centralizer l'etat de l'application dans un store unique
+        * permet a touts les composant d'acceder a cet etat
+
+EXERCICE 2 
+==========
+
+1 => appeler en jsx fonstion mafonction() depuis un element h2 :
+        A . <h2>{mafonction()}</h2>
+
+2 => incorporer ce style inline qui specifie font-size:14px et color:green avec du code jsx :
+        B . style={{fontSize:"14px", color:"green"}}
+
+3 => quell fonction pour modifier l'etat d'un composant React :
+        C . this.setState
+
+4 => La methode componentDidMount est invoque quand :
+        B . le composant est cree pour la premier fois
+
+5 => Comment faire pour rendre une liste dynamique de composants en fonction des valeurs d'un tableau :
+        D . utiliser la methode Array.map()
+
+
+EXERCICE 3 
+==========
+
+1 => explication du code :
+        *   dans ce code la on utilise la fonction fetch pour apporter des information de users aussi 
+            on mais les info du users on stat utilisateurs .
+
+2 => explication du code :
+        *   dans ce code la quand le utilisateur click sur le button click me on 
+            affiche une phrase <<Vous aves clcque {counr} fois>> dans le title de web sit et aussi
+            dans le body de web site
