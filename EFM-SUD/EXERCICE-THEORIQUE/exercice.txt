@@ -1,0 +1,38 @@
+EXERCICE 1
+==========
+
+1 => incorporer de style inline qui specifie background-color bleu font size 20px :
+        B . style={{fontSize: "20px", backgroundColor:"blue"}}
+        
+2 => dans une classe composant quelle est la fonction pour modifier de la variable d'etat prix a 230 :
+        B . this.setState({prix=230})
+        C . this.setState({prix:230})
+
+3 => dans un composant creer par foncton comment appeler en jsx une fontion fonction1 a 
+    partir d'un element button declenche par click :   (choisir les deux bonnes reponses)
+        A . <button onClick={() => fonction1()}>Update</button>
+        C . <button onClick={fonction1}>Update</button>
+
+4 => soit la list articles=[{id:10, nom:"article1"}, {id:11, nom:"article2"}]
+    creer articles2 qui contient est la copie de articles en lui ajoute l'article {id:12, nom:"article3"} :
+        A . const articles = [...articles, {id:12, nom:"article3"}]
+
+5 => useEffect(() => {document.title = title}, [title]) est invoque quand :
+        D . Apres le premier render et a chaque re-render provoque par une mise a jour de d'etat de title
+
+6 => EN redux donner l'action qui est valide :
+        B . {type: 'DELETE_ARTICLE', payload: {id:10}}
+
+EXERCICE => 2
+=============
+
+import {useState, useEffect} from "react" ;
+
+export default function App(){
+    const [articles, setArticles] = useState([]) ;
+    useEffecte(() => {
+        fetch('https://freejson.com/api/articles')
+        .then((res) => res.json())
+        .then((data) => setArticles(data))
+    }, [])
+}
