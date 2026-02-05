@@ -2,8 +2,8 @@
 
 ---
 
-## les images de EFM 
+## 📸 les images de EFM 
 
-[alt](/EFM-SUD/public/images/image1.jpeg)
-[alt](/EFM-SUD/public/images/image2.jpeg)
-[alt](/EFM-SUD/public/images/image3.jpeg)
+![regional Preview](/EFM-SUD/public/images/image1.jpeg)
+![regional Preview](/EFM-SUD/public/images/image2.jpeg)
+![regional Preview](/EFM-SUD/public/images/image3.jpeg)
