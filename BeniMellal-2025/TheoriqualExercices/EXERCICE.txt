@@ -1,0 +1,13 @@
+1 => componentDidMount
+
+2 => Array.map()
+
+3 => <User nom="Ali" />
+
+4 =><div align="center">
+        <h1>DEVOWFS</h1>
+    </div>
+
+5 => le role de useEffect =>
+        * permet d'executer du code apre le rendu du composant
+        * utiliser pour gerer les effets secondaire

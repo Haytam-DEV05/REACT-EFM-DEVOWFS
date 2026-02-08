@@ -1,0 +1,64 @@
+{
+  "Equipes": [
+    {
+      "id": 1,
+      "name": "Maroc",
+      "photo": "/images/maroc.jpg",
+      "group": "A",
+      "matchs": [
+        {
+          "id": 1,
+          "stade": "stade1",
+          "contre": "Senegal",
+          "date": "12/01/2025"
+        },
+        {
+          "id": 2,
+          "stade": "stade2",
+          "contre": "france",
+          "date": "15/02/2025"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Senegale",
+      "photo": "/images/senegale.webp",
+      "group": "A",
+      "matchs": [
+        {
+          "id": 1,
+          "stade": "stade1",
+          "contre": "Maroc",
+          "date": "07/01/2025"
+        },
+        {
+          "id": 2,
+          "stade": "stade2",
+          "contre": "Ghana",
+          "date": "02/02/2025"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "photo": "/images/france.jpg",
+      "group": "B",
+      "matchs": [
+        {
+          "id": 1,
+          "stade": "stade1",
+          "contre": "Egypte",
+          "date": "07/01/2025"
+        },
+        {
+          "id": 2,
+          "stade": "stade2",
+          "contre": "Canada",
+          "date": "02/02/2025"
+        }
+      ]
+    }
+  ]
+}
